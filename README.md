@@ -2089,6 +2089,7 @@ console.log(list.constructor); // vypýtam si obsah pola (krabičky)
 console.log(Object.getPrototypeOf(list)); // spýtam sa mojej prázdnej krabičky čo sa s ňou dá robiť
 console.log(Object.getPrototypeOf(Object.getPrototypeOf(list))); // spýtam sa krabičky ktorá ma v sebe metody čo sa dá robiť s metódami
 ```
+
 - `Object.create(nazovObjektu)` inštanciu objektu vieme vytvoriť viacerímy spôsobmi [priklad](./lessons/50/objekt-create)
 
 ```js
@@ -2177,12 +2178,10 @@ console.log(janko.getMembershipCost()); // neda sa zavolat
 ## 51. spustanie js suboru pomocou node
 
 javascriptový súbor viem spušťať v terminálý takto:
+
 ```
 node ./sectaCezpriecinky/javascriptovySuborKtoriChcemSpustit.js
 ```
-
-
-
 
 a vytvaranie modulov: module.exports = nazovPremenej, module.exports = {}, export { nazovPremenej }, export default, module.export.default
 
